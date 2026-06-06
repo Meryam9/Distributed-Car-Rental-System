@@ -15,18 +15,14 @@ A distributed car rental management system built with React, Node.js, and MongoD
 
 The system uses a **distributed MongoDB setup** with 4 separate databases:
 
-```
 global_carRentalDB     → Master customer data + authentication (users)
 lahore_carRentalDB     → Lahore fleet, rentals, payments, history
 karachi_carRentalDB    → Karachi fleet, rentals, payments, history
 islamabad_carRentalDB  → Islamabad fleet, rentals, payments, history
-```
 
 - Every new customer is **replicated to all 3 city DBs** automatically on registration
 - Rental history is stored **only in city DBs** (not global)
 - `global_carRentalDB` acts as the single source of truth for customer identity
-
----
 
 ## ✨ Features
 
@@ -43,8 +39,6 @@ islamabad_carRentalDB  → Islamabad fleet, rentals, payments, history
 - Manage customers and locations
 - Real-time alerts panel
 
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -55,29 +49,25 @@ islamabad_carRentalDB  → Islamabad fleet, rentals, payments, history
 ```bash
 cd database-scripts
 mongosh --file setup_all_databases.js
-```
+
 
 ### 2. Start the backend
 ```bash
 cd backend
 npm install
 node server.js
-```
 
 ### 3. Start the frontend
 ```bash
 cd frontend
 npm install
 npm start
-```
 
 App runs at `http://localhost:3000` — backend at `http://localhost:5000`.
 
----
 
 ## 📁 Project Structure
 
-```
 CAR RENTAL SYSTEM/
 ├── backend/
 │   ├── config/
@@ -95,9 +85,8 @@ CAR RENTAL SYSTEM/
         ├── context/           # AuthContext
         ├── pages/             # Home, Cars, Booking, Dashboards, Auth
         └── services/          # api.js
-```
 
----
+
 
 ## 🔑 Default Test Accounts
 
@@ -108,7 +97,6 @@ CAR RENTAL SYSTEM/
 
 > ⚠️ Passwords are stored in plain text for academic/demo purposes only. Do not use in production.
 
----
 
 ## 📍 Cities & Fleet
 
