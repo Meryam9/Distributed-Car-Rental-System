@@ -1,4 +1,4 @@
-# 🚗Distributed CarRental System — Pakistan
+# 🚗Distributed CarRental System 
 A distributed car rental management system built with React, Node.js, and MongoDB: featuring city-wise fleet management across Lahore, Karachi &amp; Islamabad, real-time booking, admin dashboard, and a multi-database architecture.
 
 ## 🛠 Tech Stack
@@ -10,8 +10,6 @@ A distributed car rental management system built with React, Node.js, and MongoD
 | Database | MongoDB (Distributed — 4 DBs) |
 | Auth | JWT / Session-based |
 | Notifications | React Hot Toast |
-
----
 
 ## 🗄 Database Architecture
 
