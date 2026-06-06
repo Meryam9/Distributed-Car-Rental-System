@@ -1,7 +1,5 @@
-Distributed-Car-Rental-System
+# 🚗Distributed CarRental System — Pakistan
 A distributed car rental management system built with React, Node.js, and MongoDB: featuring city-wise fleet management across Lahore, Karachi &amp; Islamabad, real-time booking, admin dashboard, and a multi-database architecture.
-# 🚗 CarRental System — Pakistan
-
 
 ## 🛠 Tech Stack
 
@@ -107,7 +105,7 @@ CAR RENTAL SYSTEM/
 
 | Role | Email | Password |
 |------|-------|----------|
-| Customer | ahmed.khan@email.com | password123 |
+| Customer | meryam.gmail.com | 124578 |
 | Customer | fatima.ali@email.com | password123 |
 
 > ⚠️ Passwords are stored in plain text for academic/demo purposes only. Do not use in production.
